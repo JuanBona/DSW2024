@@ -20,10 +20,10 @@ Este repositorio contiene el trabajo de desarrollo de software realizado para un
 
 | Requisito           | Descripción |
 |---------------------|-------------|
-| **CRUD simple**     | 1. CRUD de Categoría<br>2. CRUD de Pedido<br>3. CRUD de Persona<br>4. CRUD de Producto |
-| **CRUD dependiente**| 1. CRUD de Administrador (depende de CRUD Persona)<br>2. CRUD de Cliente (depende de CRUD Persona) |
-| **Listado + Detalle** | 1. Listado de productos filtrado por tipo, mostrando nombre y precio => Detalle en CRUD Producto<br>2. Listado de pedidos filtrado por fecha, mostrando número de pedido, fecha, estado y nombre del cliente => Detalle con información completa del pedido y cliente |
-| **CUU/Epic**        | 1. Realizar un pedido de productos<br>2. Ver detalles de un pedido |
+| **CRUD simple**     | 1. CRUD de Categoría<br>2. CRUD de Carrito<br>3. CRUD de Persona<br>4. CRUD de Producto |
+| **CRUD dependiente**| 1. CRUD de Categoria (depende de CRUD Producto)<br>2. CRUD de Marca (depende de CRUD Producto) |
+| **Listado + Detalle** | 1. Listado de productos mostrando nombre y precio => Detalle en CRUD Producto <br>2. Listado de marca y clases => Detalle en CRUD Producto|
+| **CUU/Epic**        | 1. Administrar Carrito de Compras: Permitir al usuario añadir, quitar y modificar la cantidad de productos en su carrito. También, mostrar el total actualizado en tiempo real.<br>2. Crear y Gestionar productos: Incluir la posibilidad de que los administradores registren y gestionen los productos|
 
 ## Funcionalidades Adicionales para la Aprobación
 
